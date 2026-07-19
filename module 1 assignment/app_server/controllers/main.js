@@ -5,14 +5,6 @@ const index = (req, res) => {
   });
 };
 
-const travel = (req, res) => {
-  res.render('travel', {
-    title: 'Travel',
-    travelActive: true
-  });
-};
-
 module.exports = {
-  index,
-  travel
+  index
 };
